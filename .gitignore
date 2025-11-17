@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+
+# SQLite / local databases
+*.sqlite
+*.sqlite3
+instance/*.db
+
+# Test / coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Flask / build artifacts
+*.log
+dist/
+build/
+
+
